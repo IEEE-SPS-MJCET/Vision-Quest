@@ -1,8 +1,8 @@
 import cv2
 
 # Read the images
-img1 = cv2.imread("images/img1.jpg")
-img2 = cv2.imread("images/img2.jpg")
+img1 = cv2.imread("images/img1.png")
+img2 = cv2.imread("images/img2.png")
 
 # Resize the images
 img1 = cv2.resize(img1, (200, 200))
